@@ -1,0 +1,15 @@
+{
+	"name": "homeadf87m",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "699422b6-0943-4db1-8d69-812e244cf44f",
+		"tenantId": "c9515ae6-7419-4ae5-a700-4bb5f4afa7dc"
+	}
+}

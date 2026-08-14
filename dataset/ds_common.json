@@ -1,0 +1,31 @@
+{
+	"name": "ds_common",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"paramschemaname": {
+				"type": "string"
+			},
+			"paramtablename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().paramschemaname",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().paramtablename",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
